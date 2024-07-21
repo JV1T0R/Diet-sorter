@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <span class="badge bg-secondary">${almoco.DiaDaSemana}</span>
                                 </h3>
                                 <div class="card-header bg-secondary text-white">
-                                    <h4>Almoço:</h4>
+                                    <h4 class="mb-0">Almoço:</h4>
                                 </div>
                                 <ul class="list-group list-group-flush">`;
         almoco.Alimentos.forEach(alimento => {
