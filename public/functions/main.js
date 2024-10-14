@@ -4,6 +4,7 @@ function criarAlmoco() {
         { Alimento: "Filé de Peixe", Quantidade: "120g", Tipo: "Proteína" },
         { Alimento: "Filé mignion", Quantidade: "100g", Tipo: "Proteína" },
         { Alimento: "Patinho", Quantidade: "80g", Tipo: "Proteína" },
+        { Alimento: "Camarão", Quantidade: "100g", Tipo: "Proteína" },
     ];
 
     const carboidratos = [
@@ -23,6 +24,8 @@ function criarAlmoco() {
         { Alimento: "Cenoura", Quantidade: "75g", Tipo: "Legume" },
         { Alimento: "Brócolis Cozido", Quantidade: "120g", Tipo: "Legume" },
         { Alimento: "Batata", Quantidade: "50g", Tipo: "Legume" },
+        { Alimento: "Salada de Tomate e Milho", Quantidade: "100g", Tipo: "Legume" },
+
     ];
 
     const folhosos = [
