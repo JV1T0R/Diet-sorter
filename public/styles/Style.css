@@ -8,9 +8,6 @@
 body {
   background-color: #343541;
 }
-body header {
-  background-color: #202123;
-}
 body #tituloCardapio {
   display: none;
 }
