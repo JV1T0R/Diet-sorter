@@ -11,8 +11,8 @@ class Header extends HTMLElement {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="index.html">Home</a>
-                            <a class="nav-link" href="calculators.html">Calculadoras de Recursos</a>
+                            <a class="nav-link" href="index.html">Gerador de Cardápios</a>
+                            <a class="nav-link" href="calculator.html">Calculadora de Recursos</a>
                         </div>
                     </div>
                 </div>

@@ -76,25 +76,34 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         document.getElementById('tituloCardapio').style.display = 'block';
     }
-
+ 
     function criarCardHTML(almoco) {
         let cardHTML = `<div class="card mb-4 bg-dark text-white">
                             <div class="card-body">
                                 <h3 class="card-title text-center mb-3">
                                     <span class="badge bg-secondary">${almoco.DiaDaSemana}</span>
                                 </h3>
-                                <div class="card-header bg-secondary text-white">
+                                <div class="card-header bg-secondary text-white rounded-top">
                                     <h4 class="mb-0">Almoço:</h4>
                                 </div>
-                                <ul class="list-group list-group-flush">`;
+                                <table class="table table-dark table-bordered mb-0 rounded-bottom">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Alimento</th>
+                                            <th scope="col">Quantidade</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>`;
         almoco.Alimentos.forEach(alimento => {
-            cardHTML += `<li class="list-group-item bg-dark text-white">${alimento.Alimento}: ${alimento.Quantidade}</li>`;
+            cardHTML += `<tr>
+                            <td>${alimento.Alimento}</td>
+                            <td>${alimento.Quantidade}</td>
+                        </tr>`;
         });
-        cardHTML += `    </ul>
-                      </div>
-                    </div>`;
+        cardHTML += `    </tbody>
+                    </table>
+                </div>
+            </div>`;
         return cardHTML;
-    }    
+    }
 });
-
-
