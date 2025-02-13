@@ -38,4 +38,6 @@ document.getElementById("resourceCalculator").addEventListener("submit", functio
     }
 
     resultDiv.classList.remove("d-none");
+
+    event.target.reset();
 });
