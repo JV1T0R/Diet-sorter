@@ -74,7 +74,10 @@ document.addEventListener('DOMContentLoaded', function() {
         almocos.forEach(almoco => {
             almocosContainer.innerHTML += criarCardHTML(almoco);
         });
+
         document.getElementById('tituloCardapio').style.display = 'block';
+        tituloCardapio.classList.remove('d-none');
+        btnGerarPDF.classList.remove('d-none');
     }
  
     function criarCardHTML(almoco) {
@@ -87,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <h4 class="mb-0">Almoço:</h4>
                                 </div>
                                 <table class="table table-dark table-bordered mb-0 rounded-bottom">
-                                    <thead>
+                                    <thead class="table-active">
                                         <tr>
                                             <th scope="col">Alimento</th>
                                             <th scope="col">Quantidade</th>

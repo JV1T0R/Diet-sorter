@@ -15,7 +15,7 @@ document.getElementById("resourceCalculator").addEventListener("submit", functio
                     <h4 class="mb-0">Consumo Diário Recomendado</h4>
                 </div>
                 <table class="table table-dark table-bordered mb-0">
-                    <thead>
+                    <thead class="table-active">
                         <tr>
                             <th scope="col">Recurso</th>
                             <th scope="col">Quantidade</th>
