@@ -12,7 +12,7 @@ document.getElementById("resourceCalculator").addEventListener("submit", functio
         resultDiv.innerHTML = `
             <div class="card bg-dark text-white border-0">
                 <div class="card-header bg-secondary text-white mb-0">
-                    <h4 class="mb-0">Consumo Diário Recomendado</h4>
+                    <h4 class="mb-0">Consumo Diário Recomendado:</h4>
                 </div>
                 <table class="table table-dark table-bordered mb-0">
                     <thead class="table-active">
